@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head>
+<body>
+    <style>
+        .nav{
+            text-transform: uppercase;
+            font-weight: 800; 
+        }
+    </style>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <h1 class="Topic" id="main">young programmer's club</h1>
+      <h3 class="Topic" id="sub-main">(ypc)</h3>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.htm">Shafin farko</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.htm">game da shafi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.htm">tuntuba</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+        <p>zaka iya samun mu a Ahmadiyya college kano. P.O.Box 326 Ahmadiyya line</p>
+        <section>
+            <h5>zaka iya cike online form dinmu</h5>
+            <form action="mailto:gamaabba7@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend> <h1>Online Form</h1></legend>
+                    <!--Input-->
+                    <label for="SurName" class="form-label">SurName :<input title="this place is needed" name="SurName" type="text" required placeholder="Your Fathers Name" class="form-control"></label>
+                    <label for="First Name" class="form-label">First Name: <input title="this place is needed" name="Your name" type="text" required placeholder="Your  Name" class="form-control"></label> 
+                    <label for="Last Name" class="form-label">Last Name: <input title="this place is needed" name="LastName" type="text" placeholder="not necessary" class="form-control"></label><br>
+                    <label for="Adress" class="form-label">Address: <input title="this place is needed" name="Adress" type="text" required placeholder="e.g Gama D, Dan kargo" class="form-control"></label> 
+                    <label for="DOB" class="form-label">Date of Birth: <input title="this place is needed" name="YPC" type="date" required placeholder="Your Fathers Name" class="form-control"></label>
+                    <label for="tel" class="form-label">Tel: <input title="this place is needed" name="YPC" type="text" required placeholder="Your Fathers Name" class="form-control"></label><br>
+                    <label for="School">
+                        <h3>School </h3>
+                        <label for="SecSchool">Secondary school<input  name="YPC" type="radio" class="form-check-input"></label>
+                        <label for="terInst">tertiary institution<input  name="YPC" type="radio" class="form-check-input"></label>
+                        <label for="Busi/Others">Business & Others<input  name="YPC" type="radio" class="form-check-input"></label>
+                    </label><br>
+                    <label for="schName"></label>School/Business Name <input name="YPC" type="text"  placeholder="school/business/other" class="form-control"></label>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <label for="inputPassword6" class="col-form-label">Card PIN</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="col-auto">
+                          <span id="passwordHelpInline" class="form-text">
+                            Must be 8-20 characters long.
+                          </span>
+                        </div>
+                      </div>
+                    <label for="ques">the you have any experience on computer? <br>
+                        <label for="yes">Yes<input  name="YPCs" type="radio" class="form-check-input"></label>
+                        <label for="no">No<input  name="YPCs" type="radio" class="form-check-input"></label>
+                    </label><br>
+                    <h3>Select at least two one Language you want to learn</h3>
+                    <label for="C-Sharp">C# <input type="checkbox" name="YPC" class="form-check-input"></label>
+                    <label for="SQL">SQL <input type="checkbox" name="YPC" class="form-check-input"></label>
+                    <label for="HTML">HTML <input type="checkbox" name="YPC" class="form-check-input"></label>
+                    <label for="CSS">CSS <input type="checkbox" name="YPC" class="form-check-input"></label>
+                    <label for="Javascript">Javascript <input type="checkbox" name="YPC" class="form-check-input"></label>
+                    <label for="vb.net">VB.Net <input type="checkbox" name="YPC" class="form-check-input"></label><br>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <button class="btn btn-primary" type="reset">Reset</button>
+                      </div>
+                
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+           <li class="nav-item"><a href="index.htm" class="nav-link px-2 text-muted">SHAFIN FARKO</a></li>
+           <li class="nav-item"><a href="About.htm" class="nav-link px-2 text-muted">GAME DA SHAFI</a></li>
+           <li class="nav-item"><a href="Contact.htm" class="nav-link px-2 text-muted">TUNTUBA</a></li>
+         </ul>
+         <p class="text-center text-muted">gamaabba7&copy;gmail.com  &copy; 2022</p>
+       </footer>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+header{
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.Topic{
+  position: relative;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 3px 2px 1px black;
+  text-transform: uppercase;
+}
+#main{
+font-size: 70px;
+}
+#sub-main{
+font-size: 40px;
+}
+nav{
+  float: left;
+  display: block;
+  margin: 0px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+}
+nav ul{
+  background-color: brown;
+ width: 100%;
+}
+nav li{
+  display: inline;
+  margin: 8%;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+nav a:hover{
+  color: black;
+}
+main{
+  margin: 50px;
+}
+
+#left{
+  display: block;
+  width: 50%;
+  float: left;
+}
+#right{
+  display: black;
+  width: 50%;
+  float: left;
+}
+.container fieldset{
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.Pic{
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border: black 2px solid;
+  border-radius: 10% ;
+  margin: 10px;
+  float: left;
+}
+/* table{
+  width: 95%;
+  margin: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+} */
+video{
+  width:95%;
+  margin: 10px;
+  height:45% ;
+}
+p{
+  margin: 10px;
+}
+audio{
+  width:100%;
+}
+
+
+footer{
+  background: brown;
+  color: #fff;
+  font-family: sans-serif,Arial;
+}
+.icon{
+  width: 50px;
+}
+.group{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.group img{
+  width: 100%;
+  margin: 0;
+}
+.group p{
+  font-size: 10px;
+  text-align: center;
+  color: brown;
+}
+form{
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form fieldset{
+  border: double brown 5px;
+  border-radius: 10px;
+  padding: 3%;
+  font-size: 20px;
+  background: linear-gradient( gray,transparent);
+}
+.fill{
+  font-size: 15px;
+  width: 25%;
+  border: none;
+  border-bottom: solid brown 2px;
+  background: inherit;
+  color: #fff;
+}
+/* button{
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: gray;
+} 
+footer{
+  text-decoration: none;
+  min-height: 50px;
+  background-color: brown;
+  width: 100%;  
+}*/
